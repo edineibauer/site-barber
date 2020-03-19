@@ -1,0 +1,22 @@
+[
+  {
+    "funcao": "pageTransition('atendimento', 'grid', 'forward', '#dashboard')",
+    "class": "theme-text-aux",
+    "html": "<i class='material-icons left' style='margin-top: -5px'>calendar_today</i><div style='margin-top: -12px;color: gray;font-size: 10px;text-align: center;'>atendimento</div>"
+  },
+  {
+    "funcao": "pageTransition('perdas', 'grid', 'forward', '#dashboard')",
+    "class": "theme-text-aux",
+    "html": "<i class='material-icons left' style='margin-top: -5px'>delete_outline</i><div style='margin-top: -12px;color: gray;font-size: 10px;text-align: center;'>perdas</div>"
+  },
+  {
+    "funcao": "pageTransition('servicos', 'grid', 'forward', '#dashboard')",
+    "class": "theme-text-aux",
+    "html": "<i class='material-icons left' style='margin-top: -5px'>room_service</i><div style='margin-top: -12px;color: gray;font-size: 10px;text-align: center;'>serviços</div>"
+  },
+  {
+    "funcao": "pageTransition('clientes', 'grid', 'forward', '#dashboard')",
+    "class": "theme-text-aux",
+    "html": "<i class='material-icons left' style='margin-top: -5px'>people</i><div style='margin-top: -12px;color: gray;font-size: 10px;text-align: center;'>clientes</div>"
+  }
+]

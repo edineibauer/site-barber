@@ -1,0 +1,7 @@
+{
+  "title": "Dashboard",
+  "js": ["funcaoDashboard"],
+  "css": ["w3"],
+  "!setor": "0",
+  "navbar": true
+}

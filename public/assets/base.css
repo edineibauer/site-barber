@@ -6,4 +6,8 @@
     .table-all thead th:nth-child(3), .table-all tbody td:nth-child(3) {
         display: block !important;
     }
+
+    #tableList-barbeiro > .grid-form-body > .table-all thead th:nth-child(3), #tableList-barbeiro > .grid-form-body > .table-all tbody td:nth-child(3) {
+        display: none !important;
+    }
 }
