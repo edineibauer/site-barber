@@ -1,4 +1,6 @@
 {
     "title": "{$sitename}",
-    "css": ["w3"]
+    "css": [],
+    "setor": "nenhum",
+    "redirect": "login"
 }
