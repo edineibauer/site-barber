@@ -1,0 +1,9 @@
+@media (max-width: 700px) {
+    .table-all thead th:nth-child(1), .table-all tbody td:nth-child(1) {
+        display: none !important;
+    }
+
+    .table-all thead th:nth-child(3), .table-all tbody td:nth-child(3) {
+        display: block !important;
+    }
+}

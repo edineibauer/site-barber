@@ -1,0 +1,16 @@
+{
+  "name": "ueb/site-barber",
+  "description": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Edinei J. Bauer",
+      "email": "edineibauer@gmail.com"
+    }
+  ],
+  "require": {
+    "ueb/dashboard": "^1",
+    "ueb/cep": "^1",
+    "php": "^7.1"
+  }
+}
