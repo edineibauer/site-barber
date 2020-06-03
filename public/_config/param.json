@@ -1,1 +1,13 @@
-{"title":"Barber Shop","js":[],"css":["base"],"font":["roboto"],"icon":["material"]}
+{
+  "title": "Barber Control",
+  "js": [],
+  "css": [
+    "base"
+  ],
+  "font": [
+    "roboto"
+  ],
+  "icon": [
+    "https://fonts.googleapis.com/icon?family=Material+Icons"
+  ]
+}

@@ -18,24 +18,6 @@
     "html": "<i class='material-icons left'>assessment</i>"
   },
   {
-    "href": "UIDev",
-    "li": {
-      "class": "s-hide"
-    },
-    "attr": "rel='UIDev'",
-    "class": "theme-text-aux",
-    "html": "<i class='material-icons left'>settings</i>"
-  },
-  {
-    "href": "UIEntidades",
-    "li": {
-      "class": "s-hide"
-    },
-    "class": "theme-text-aux",
-    "attr": "rel='UIEntidades'",
-    "html": "<i class='material-icons left'>accessibility_new</i>"
-  },
-  {
     "funcao": "toggleSidebar",
     "li": {
       "class": "not-menu-li"

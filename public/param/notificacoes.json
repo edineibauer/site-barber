@@ -1,0 +1,9 @@
+{
+    "title": "Notificações {$sitename}",
+    "css": ["libs/bootstrap.min"],
+    "js": [],
+    "navbar": true,
+    "header": false,
+    "!setor": "0",
+    "redirect": "login"
+}

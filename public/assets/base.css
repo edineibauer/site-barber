@@ -1,3 +1,133 @@
+.sidebar-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a i {
+    float: left;
+    padding: 7px 0 0 0;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #343434;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    background: #eeeeee;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    font-size: 20px;
+    color: #7D35FB;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+.termos-sair {
+    position: absolute;
+    bottom: 55px;
+    left: 0;
+    width: 100%;
+}
+
+.termos-sair .termo {
+    color: #888888;
+}
+
+.navbar-brand {
+    margin-right: 0 !important;
+}
+
+#login-aside {
+    color: #FF6B6B;
+    padding-right: 10px;
+}
+
+.voltaDiv {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.volta > i {
+    font-size: 35px;
+    padding: 15px 25px 10px;
+    margin-left: -15px;
+    color: #2a2a2a;
+    text-shadow: 1px 1px #fafafa;
+}
+
+.volta > i.white, .voltaRelativo > i.white {
+    color: #ffffff;
+    text-shadow: 0 0 2px #000000;
+}
+
+.voltaDiv.relative {
+    position: relative;
+}
+
+.voltaDiv.relative .volta > i {
+    padding: 15px 20px 10px;
+    margin-left: -10px;
+}
+
+.voltaRelativo > i {
+    font-size: 35px;
+    padding: 23px 15px;
+    color: #2a2a2a;
+    text-shadow: 1px 1px #fafafa;
+}
+
+.titulo {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    margin-top: 25px !important;
+    margin-bottom: 30px !important;
+    float: left !important;
+    color: #2a2a2a;
+}
+
+.tituloArrow {
+    padding-left: 60px !important;
+}
+
+.rowHeader {
+    max-width: 100%;
+}
+
 @media (max-width: 700px) {
     .table-all thead th:nth-child(1), .table-all tbody td:nth-child(1) {
         display: none !important;

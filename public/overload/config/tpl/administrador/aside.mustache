@@ -1,0 +1,72 @@
+<ul class="sidebar-nav">
+    <li class="sidebar-brand theme-text"> Mais</li>
+    <li>
+        <a href="perfil">
+            <i class="material-icons">storefront</i> Perfil da Barbearia
+        </a>
+    </li>
+    <li>
+        <a href="extrato">
+            <i class="material-icons">person</i> Meu Perfil
+        </a>
+    </li>
+    <li>
+        <a href="resgate">
+            <i class="material-icons">room_service</i> Serviços
+        </a>
+    </li>
+    <li>
+        <a href="promocoes">
+            <i class="material-icons">redeem</i> Fidelização
+        </a>
+    </li>
+    <li>
+        <a href="promocoes">
+            <i class="material-icons">supervised_user_circle</i> Meus Barbeiros
+        </a>
+    </li>
+    <li>
+        <a href="#" class="site-btn-push" onclick="subscribeUser();">
+            <i class="material-icons">notifications_active</i> Ser notificado
+        </a>
+    </li>
+    <div class="termos-sair">
+        <li>
+            <a href="termos" class="termo" style="width: 185px;">
+                <i class="material-icons">insert_drive_file</i> Termos de uso
+            </a>
+        </li>
+    </div>
+</ul>
+
+<div class="theme core-class-container hide" id="core-sidebar-header">
+    <div id="core-sidebar-perfil" class="core-class-container theme-border-l">
+        <div class="left" id="core-sidebar-imagem"></div>
+
+        <div id="core-sidebar-perfil-name">
+            <div class="core-class-container" id="core-header-name">
+                <strong id="core-sidebar-nome"></strong>
+
+                <span id="core-sidebar-edit">
+                    <i class="material-icons">edit</i>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="core-sidebar-main" class="core-class-container hide">
+    <ul id="core-applications" class="core-class-container"></ul>
+    <ul id="core-sidebar-menu" class="core-class-container"></ul>
+</div>
+
+<div class="core-sidebar-bottom">
+    <div style="cursor: pointer;float:left;padding-left: 6px;color: #888;" onclick="updateCache()">
+        <i class="material-icons" style="float:left;padding: 6px;">autorenew</i>
+        <div style="float:left;padding: 9px 0;">atualizar</div>
+    </div>
+    <div id="login-aside">
+        <div>sair</div>
+        <i class="material-icons">exit_to_app</i>
+    </div>
+</div>

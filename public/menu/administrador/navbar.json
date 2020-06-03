@@ -1,0 +1,22 @@
+[
+  {
+    "href": "dashboard",
+    "class": "theme-text-aux",
+    "html": "<i class='material-icons left'>home</i><div style='margin-top: -7px;color: gray;font-size: 10px;text-align: center;'>home</div>"
+  },
+  {
+    "onclick": "pageTransition('atendimentos', 'grid', 'forward', '#dashboard')",
+    "class": "theme-text-aux",
+    "html": "<i class='material-icons left'>schedule</i><div style='margin-top: -7px;color: gray;font-size: 10px;text-align: center;'>atendimento</div>"
+  },
+  {
+    "onclick": "pageTransition('clientes', 'grid', 'forward', '#dashboard')",
+    "class": "theme-text-aux",
+    "html": "<i class='material-icons left'>people</i><div style='margin-top: -7px;color: gray;font-size: 10px;text-align: center;'>clientes</div>"
+  },
+  {
+    "href": "notificacoes",
+    "class": "theme-text-aux",
+    "html": "<i class='material-icons left'>notifications</i><div style='margin-top: -7px;color: gray;font-size: 10px;text-align: center;'>notificações</div>"
+  }
+]

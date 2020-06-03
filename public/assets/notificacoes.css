@@ -1,0 +1,39 @@
+.titulo {
+    width: auto!important;
+}
+
+.btn-notify {
+    border: none;
+    border-radius: 7px;
+    padding: 5px 10px;
+    margin-top: 25px;
+    color: white;
+    box-shadow: 1px 1px 11px -8px black;
+}
+
+.mdi-arrow-left {
+    font-size: 32px;
+    margin-left: -4px;
+}
+
+.mt-6 {
+    margin-top: 2px;
+}
+
+.texto {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 18px;
+    float:left;
+    width: 100%;
+}
+
+#notificacao figure img {
+    max-width: 280px;
+}
+
+h6 {
+    font-weight: 600;
+}
